@@ -17,7 +17,7 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className='md:w-3/5 lg:w-3/5 flex container h-96'>
+        <div className='md:w-3/5 lg:w-3/5 flex container w-full h-96'>
           <img
             src={heroImage}
             alt='hero-image'

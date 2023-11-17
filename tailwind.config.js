@@ -18,6 +18,8 @@ export default {
       colors: {
         veryDarkBlue: 'hsla(216, 98%, 20%, 1)',
         lightBlue: 'hsla(216, 99%, 30%, 1)',
+        veryLightBlue: 'hsla(216, 100%, 50%, 1)',
+        grayBlue: 'hsla(216, 100%, 80%, 1)',
         lightGray: 'hsla(0, 0% ,100%, 1)',
         darkGray: 'hsla(0, 0%, 30%, 1)'
       }

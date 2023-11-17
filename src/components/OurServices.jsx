@@ -10,7 +10,7 @@ const Services = () => {
           Our Services
         </h2>
         <div className='flex flex-col md:flex-row'>
-          <ul className='w-full'>
+          <ul className='w-full m-0 p-0'>
             <li className='flex flex-col md:flex-row items-center p-5 md:w-full md:justify-between'>
               <div className='flex flex-col items-center  gap-7 md:flex-row md:justify-start md:items-start md:w-1/5'>
                 <p className='text-4xl text-lightBlue border-2 border-lightBlue rounded-full px-5 py-2'>
