@@ -5,6 +5,8 @@ import './App.css';
 // import LogIn from './components/LogIn';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
+import Login from './pages/auth/Login';
+import SignUp from './pages/auth/Signup';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route index element={<Navigate replace to='home' />} />
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </>

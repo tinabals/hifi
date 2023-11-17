@@ -23,12 +23,10 @@ const NavBar = () => {
         </ul>
         <div className='flex space-x-3'>
           <button className='border border-lightBlue px-2 p-1 rounded-md'>
-            {' '}
-            Log In{' '}
+            <Link to='/Login'> Log In </Link>
           </button>
           <button className='border border-lightBlue text-white bg-lightBlue px-2 p-1 rounded-md'>
-            {' '}
-            Sign Up{' '}
+            <Link to='/SignUp'> Sign Up </Link>
           </button>
         </div>
       </div>
