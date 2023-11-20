@@ -20,9 +20,9 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='w-full px-20 mt-10 justify-center text-center items-center flex flex-col md:flex-row'>
-          <div className='w-1/2 md:w-4/5 p-6 bg-grayBlue'></div>
-          <div className='w-1/2 md:w-1/5 bg-white px-6 py-3'>
+        <div className='md:w-full px-20 mt-10 justify-center text-center items-center flex flex-col md:flex-row'>
+          <div className=' w-full md:w-4/5 p-6 bg-grayBlue'></div>
+          <div className=' w-full md:w-1/5 bg-white px-6 py-3'>
             <p className='text-veryLightBlue text-center'>Subscribe</p>
           </div>
         </div>
