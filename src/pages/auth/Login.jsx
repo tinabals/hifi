@@ -6,11 +6,15 @@ import arrowBack from '../../assets/img/arrow-back.png';
 import {AiFillEye} from 'react-icons/ai';
 const LogIn = () => {
   return (
-    <section className='flex h-full md:flex-row text-center'>
-      <div className='flex bg-veryDarkBlue text-white flex-col gap-10 w-full md:w-1/2'>
+    <section className='flex min-h-screen md:flex-row text-center'>
+      <div className='container flex bg-veryDarkBlue text-white px-20 flex-col gap-10 w-full md:w-1/2 md:justify-normal'>
         <div className='w-full'>
-          <div className='flex gap-40 items-center container'>
-            <img src={arrowBack} alt='go back' className='' />
+          <div className='relative'>
+            <img
+              src={arrowBack}
+              alt='go back'
+              className='absolute -left-12 top-3'
+            />
             <div className='flex flex-col tracking-wide mt-10 items-center gap-2 justify-center'>
               <div className='flex flex-col justify-center'>
                 <p className='font-bold'>Welcome Back</p>
