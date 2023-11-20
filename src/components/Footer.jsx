@@ -5,10 +5,13 @@ const Footer = () => {
     <>
       <section className='relative bg-veryLightBlue  text-white p-10 mx-auto'>
         <div className='container px-10 '>
-          <img src={ellipsis} alt='' className='absolute right-0 top-0' />
+          <img
+            src={ellipsis}
+            alt=''
+            className='hidden md:block md:absolute right-0 top-0'
+          />
           <div className='mb-4'>
             <h5 className='text-2xl tracking-wide mb-5 font-semibold'>
-              {' '}
               Join Our Newsletter
             </h5>
             <p className='tracking-wide font-light mb-5'>
@@ -16,11 +19,11 @@ const Footer = () => {
               our teams
             </p>
           </div>
-          <div className='container mt-10 mx-10 justify-center text-center items-center flex flex-col md:flex-row'>
-            <div className=' w-4/6 md:w-4/5 p-6 bg-grayBlue items-center'></div>
-            <div className='w-4/6 md:w-1/5 bg-white px-6 py-3 items-center'>
-              <p className='text-veryLightBlue text-center'>Subscribe</p>
-            </div>
+        </div>
+        <div className='w-full px-20 mt-10 justify-center text-center items-center flex flex-col md:flex-row'>
+          <div className='w-1/2 md:w-4/5 p-6 bg-grayBlue'></div>
+          <div className='w-1/2 md:w-1/5 bg-white px-6 py-3'>
+            <p className='text-veryLightBlue text-center'>Subscribe</p>
           </div>
         </div>
       </section>
