@@ -3,7 +3,7 @@ import heroImage from '../assets/img/hero.png';
 const Hero = () => {
   return (
     <section className='container mx-auto px-auto mb-20'>
-      <div className='flex  flex-col-reverse items-center justify-between  container md:m-10 md:flex-row'>
+      <div className='flex flex-col-reverse items-center justify-between  container md:m-10 md:flex-row'>
         <div className='space-y-10 md:w-2/5 lg:w-2/5'>
           <p className='text-2xl text-lightBlue font-bold text-center md:text-left md:text-4xl'>
             Experience the power of predictive analytics with our loan
@@ -17,7 +17,7 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className='md:w-3/5 lg:w-3/5 flex container w-full h-96'>
+        <div className='md:w-3/5 lg:w-3/5 flex container'>
           <img
             src={heroImage}
             alt='hero-image'

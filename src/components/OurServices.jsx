@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className='container mt-20 mx-auto px-auto'>
       <div className='flex flex-col'>
-        <h2 className='text-3xl tracking-wide font-medium text-lightBlue underline underline-offset-8 uppercase'>
+        <h2 className='text-3xl tracking-wide text-center pb-10 md:pt-0 md:text-left font-medium text-lightBlue underline underline-offset-8 uppercase'>
           Our Services
         </h2>
         <div className='flex flex-col md:flex-row'>

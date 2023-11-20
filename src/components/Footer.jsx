@@ -30,7 +30,7 @@ const Footer = () => {
       <hr />
       <section
         id='links'
-        className=' relative flex p-10  bg-veryLightBlue text-white  md:flex-row'
+        className=' relative flex p-10 justify-center bg-veryLightBlue text-white  md:flex-row'
       >
         <div className='container flex-col md:flex-row'>
           <div id='img' className='flex justify-center items-center'>
