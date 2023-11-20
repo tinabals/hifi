@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import {AiFillEye} from 'react-icons/ai';
 import login from '../../assets/img/login.png';
 import emailIcon from '../../assets/img/email.png';
@@ -17,7 +18,9 @@ const LogIn = () => {
           </div>
           <p className='text-center'>
             Don&apos;t have an account?
-            <span className='font-bold cursor-pointer ml-2'>Sign up</span>
+            <span className='font-bold cursor-pointer ml-2'>
+              <Link to='/signup'>Sign up</Link>
+            </span>
           </p>
         </div>
         <form className='w-full max-w-md mt-6'>
