@@ -1,7 +1,4 @@
-import {
-  signInWithEmailAndPassword,
-  sendPasswordResetEmail,
-} from 'firebase/auth';
+import {signInWithEmailAndPassword} from 'firebase/auth';
 import {auth} from '../../../firebase.js';
 
 import {useState} from 'react';
@@ -42,14 +39,6 @@ const LogIn = () => {
   };
   const changePassword = async () => {
     setForgotPassword(true);
-    try {
-      if (!email) {
-        setError('No email');
-      }
-      await sendPasswordResetEmail(auth, email).then();
-    } catch (err) {
-      console.log(err);
-    }
   };
   return (
     <>
